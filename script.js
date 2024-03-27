@@ -53,4 +53,5 @@ let addr_input=input_create("input","type","text","addr")
 let addr_input_break=break_create()
 let submit_input=input_create("input","type","submit")
 submit_input.setAttribute("onclick","foo()")
+
 document.body.append(first,first_break,first_input,first_input_break,second,second_break,second_input,second_input_break,third,third_break,third_input,third_input_break,email,email_break,email_input,email_input_break,addr,addr_break,addr_input,addr_input_break,submit_input)
