@@ -1,18 +1,3 @@
-// // Get the span element by its class
-// const divElement = document.querySelector('.color-span');
-
-// // Add event listener for mouseover event
-// divElement.addEventListener('mouseover', function() {
-//   // Change the text color to red when the mouse moves over the element
-//   this.style.color = 'red';
-// });
-
-// // Add event listener for mouseout event
-// divElement.addEventListener('mouseout', function() {
-//   // Change the text color back to black when the mouse moves out of the element
-//   this.style.color = 'black';
-// }
-
 function tab(tagname,attr,attrval){
     var table= document.createElement(tagname)
     table.setAttribute(attr,attrval)
@@ -44,12 +29,12 @@ let th3=th("th","scope","col","Last")
 let th4=th("th","scope","col","Handle")
 let tbody1=tr("tbody")
 let tr2=tr("tr")
-let th5=th("th","scope","col","1")
+let th5=th("th","scope","row","1")
 let td1=td("td","Mark")
 let td2=td("td","Otto")
 let td3=td("td","@mdo")
 let tr3=tr("tr")
-let th6=th("th","scope","col","2")
+let th6=th("th","scope","row","2")
 let td4=td("td","Jacod")
 let td5=td("td","Thornton")
 let td6=td("td","@fat")
